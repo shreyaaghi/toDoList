@@ -3,6 +3,10 @@ import { useState } from "react";
 import axios from "axios";
 
 const ToDoInput = ()=>{
+    // useEffect(() => {
+    //     console.log("Hi from the Todo input");
+    // }, []);
+    
     const [item, setItem] = useState("");
 
     const addItem = async () => {
